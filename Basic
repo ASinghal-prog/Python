@@ -1,0 +1,12 @@
+Python Variables---
+int
+str
+bool
+float
+
+Simple program--
+name = 'Aparna'
+print(name)
+
+Take input from user---
+use input()
