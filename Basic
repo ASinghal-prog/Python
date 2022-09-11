@@ -10,3 +10,17 @@ print(name)
 
 Take input from user---
 use input()
+**-- power
+type()-- used to check variable type.
+
+Decision Making Statements-----
+if(condition):
+  \\write your code here\\
+else:
+   \\write your code here\\
+   
+not()---- reverse what we write inside of the brackets.
+
+Loops--------
+for x in range(0,10):
+   print(x)
