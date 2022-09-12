@@ -24,3 +24,65 @@ not()---- reverse what we write inside of the brackets.
 Loops--------
 for x in range(0,10):
    print(x)
+
+high level
+rossum 1991
+
+by default new line, use end to print in same line
+print('a','b',sep ='@')
+a@b
+
+print(a)
+print(b)
+a
+b
+
+print('a','b', sep ='@', end =' ')
+a@b
+
+
+
+to check keyword list-
+use keyword module
+
+import keyword
+print(keyword.kwlist)
+kwlist is a library used to print all keywords
+
+in keyword used with if to check some condition
+used with for to loop
+
+
+To print current date and time-
+import datetime
+datetime.datetime.now()
+
+to print in a particular format use strftime()
+import datetime
+a= datetime.datetime.now()
+print(a.strftime("%Y-%M-%D")
+
+question-- print in given specific format using formatted string option and string option
+# exam_st_date = (11, 12, 2014)
+# day = exam_st_date[0]
+# month = exam_st_date [1]
+# year = exam_st_date [2]
+# print(f'The examination will start from: {day}/{month}/{year}') 
+
+or
+
+exam_st_date = (11,12,2014)
+print( "The examination will start from : {exam_st_date}".format(exam_st_date=exam_st_date).replace(',','/'))
+
+
+
+numbers=input("enter numbers")
+num=numbers.split(",")
+print(numbers)
+print(num)
+print(tuple(num))
+
+
+While loop-------------
+while condition == true:
+  do this
