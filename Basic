@@ -86,3 +86,17 @@ print(tuple(num))
 While loop-------------
 while condition == true:
   do this
+
+
+Lists--
+fruits = ['A','B','C']
+
+fruits.append('D')--- it will add item to the list.
+
+fruits[1] = 'D'--- change the item at specified index.
+
+Tuple---
+T = ('A','B','C')
+
+
+String Methods---
