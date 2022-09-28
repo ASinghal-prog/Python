@@ -4,6 +4,8 @@ str
 bool
 float
 
+TYPE CONVERSION--- int(), str(), float()
+
 Simple program--
 name = 'Aparna'
 print(name)
